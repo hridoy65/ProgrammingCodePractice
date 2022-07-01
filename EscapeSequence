@@ -1,0 +1,32 @@
+//Uses of Escape Sequence
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Name: Hridoy Matber\n";
+    cout << "Section: B\n";
+    cout << "ID: 200065\n";
+    cout << "Email: rhridoy136@gmail.com\n";
+
+
+    cout << "Name: Hridoy Matber" << endl << "Section: B" << endl << "ID: 200065" << endl << "Email: rhridoy136@gmail.com" << endl;
+
+    cout << "\a used for (Alert) Bell\n";
+
+    cout << "\b used for Backspace\n";
+
+    cout << "\f used for Form Feed\n";
+
+    cout << "\n used for New Line\n";
+
+
+    cout << "\r used for Carriage Return\n";
+
+    cout << "\t used for Horizontal Tab\n";
+
+    cout << "\v used for Vertical Tab\n";
+
+    return 0;
+}
